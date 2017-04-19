@@ -1,0 +1,36 @@
+# -*- mode:python;indent-tabs-mode:t;show-trailing-whitespace:t; -*-
+#
+# Project settings for rosetta sources
+# (c) Copyright Rosetta Commons Member Institutions.
+# (c) This file is part of the Rosetta software suite and is made available under license.
+# (c) The Rosetta software is developed by the contributing members of the Rosetta Commons.
+# (c) For more information, see http://www.rosettacommons.org. Questions about this can be
+# (c) addressed to University of Washington UW TechTransfer, email: license@u.washington.edu.
+
+########### KEEP DIRECTORIES AND FILES IN ALPHABETICAL ORDER ###########
+
+sources = {
+	"core": [
+		"svn_version",
+	],
+	"core/graph": [
+		"ArrayPool",
+		"DisjointSets",
+		"Graph",
+		"graph_util",
+	],
+	"core/grid": [
+	],
+}
+include_path = [
+]
+library_path = [
+]
+libraries = [
+]
+subprojects = [
+	"basic",
+	"numeric",
+	"utility",
+	"ObjexxFCL",
+]
